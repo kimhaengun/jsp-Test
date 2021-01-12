@@ -29,6 +29,6 @@ CREATE TABLE user(
     username varchar(100) not null unique,
     password varchar(100) not null,
     email varchar(100) not null,
-    role varchar(20),
-)
+    role varchar(20)
+);
 ```
