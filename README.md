@@ -56,7 +56,7 @@ CREATE TABLE user(
 - 회원가입을 하게 되면 첫화면 User Table에 유저목록 추가 
 ![회원가입 완료](https://user-images.githubusercontent.com/74044234/104345305-8787ef00-5541-11eb-8f77-713c2c5c99a8.jpg)
 
-## 유저로 로그인하면 로그인한 유저계정만 삭제가능 
+## user로 로그인시 user계정만 삭제가능 
 ![유저 로그인시 삭제버튼생성](https://user-images.githubusercontent.com/74044234/104345311-8951b280-5541-11eb-9427-a0a8ec848442.jpg)
 
 ![유저 삭제](https://user-images.githubusercontent.com/74044234/104345813-17c63400-5542-11eb-89ca-fb91ff655c8c.jpg)
