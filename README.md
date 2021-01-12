@@ -20,8 +20,8 @@ create database project;
 ```
 
 ## MySQL 테이블 생성
--projectuser 사용자로 접속
--use project; 데이터 베이스 선택
+- projectuser 사용자로 접속
+- use project; 데이터 베이스 선택
 ```sql
 CREATE TABLE user(
     id int primary key auto_increment,
