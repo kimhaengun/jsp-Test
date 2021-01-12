@@ -64,3 +64,5 @@ CREATE TABLE user(
 ## admin계정으로 로그인시 모든 유저계정 삭제 가능
 ![admin로그인 시 모든 사용자 삭제](https://user-images.githubusercontent.com/74044234/104345822-198ff780-5542-11eb-987a-aed63c060506.jpg)
 
+## 로그아웃 시 세션이 날라가 삭제 불가능
+![로그아웃 세션out](https://user-images.githubusercontent.com/74044234/104346815-3416a080-5543-11eb-983d-7e0deae6b0e5.jpg)
