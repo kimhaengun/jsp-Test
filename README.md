@@ -32,3 +32,15 @@ CREATE TABLE user(
     role varchar(20)
 );
 ```
+
+## 추가. 
+user는 id를 비교해서 같을 시에 삭제 가능
+<c:if test="${sessionScope.principal.id == board.id}">
+    <button onclick="deleteById(${board.id})">삭제</button>
+</c:if>
+
+admin은 role 값이 admin이면 모두 삭제 가능
+<c:if test="${sessionScope.principal.role eq 'admin'}">
+    <button onclick="deleteById(${board.id})">삭제</button>
+</c:if>
+                
