@@ -2,15 +2,15 @@
 
 ## 환경
 
--windows10
--jdk1.8
--tomcat9.0
--sts tool
--mysql8.0
--lombok
--jstl
--인코딩 utf-8
--git
+- windows10
+- jdk1.8
+- tomcat9.0
+- sts tool
+- mysql8.0
+- lombok
+- jstl
+- 인코딩 utf-8
+- git
 
 ## MySQL 데이터베이스 생성 및 사용자 생성
 ```sql
