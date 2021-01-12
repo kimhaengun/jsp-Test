@@ -33,7 +33,7 @@ CREATE TABLE user(
 );
 ```
 
-## 추가. 
+## 추가 해야할 코드. 
 - user는 id를 비교해서 같을 시에 삭제 가능
 ```
 <c:if test="${sessionScope.principal.id == board.id}">
